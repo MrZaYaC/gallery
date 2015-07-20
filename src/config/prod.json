@@ -1,0 +1,7 @@
+{
+  "appSettings": {
+    "API": {
+      "HOST" : "http://example.com/api"
+    }
+  }
+}

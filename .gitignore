@@ -1,0 +1,10 @@
+.idea*
+.DS_Store
+.coffee
+Thumbs.db
+public/*
+!public/images.json
+bower_components
+node_modules
+npm-debug.log
+src/config/dev.json

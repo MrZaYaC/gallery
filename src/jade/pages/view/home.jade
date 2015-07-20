@@ -1,0 +1,10 @@
+.container-fluid
+  .row.margin
+    form.form-horizontal
+      .form-group
+        label.col-sm-2.control-label(for="search") Search:
+        .col-sm-4
+          input#search.form-control(ng-model="vm.search")
+  .row
+    .col-sm-12
+      div(ng-gallery="" search-handle="vm.search")

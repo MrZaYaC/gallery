@@ -1,0 +1,4 @@
+.photo-bandle(ng-repeat="image in images | filter:{title:searchHandle} track by $index")
+  .label.label-info(ng-bind="image.title")
+  .photo-image
+    img.img-thumbnail(src="{{image.link}}")
